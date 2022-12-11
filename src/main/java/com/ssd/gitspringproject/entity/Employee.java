@@ -13,6 +13,7 @@ public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
+	
 	private String name;
 	private String address;
 	private Long phNo;
